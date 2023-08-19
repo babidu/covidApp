@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.covidTable {
+  width: 80%;
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+
+/* .table>:not(caption)>*>* {
+  border: 1px solid gainsboro !important;
+}
+*/
+
+.tHead th {
+  background-color: rgb(14, 14, 66) !important;
+  color: #fff !important;
+}
+
+.covidTable {
+  height: 93vh !important;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  margin-top: 2%;
+}
+
+.thBody:hover {
+  background-color: lightgray !important;
+}
+
+/* td:hover {
+  background-color: antiquewhite !important;
+} */
+/* 
+.table-hover tbody tr:hover  */
+.state:hover {
+  background-color: #8acded !important;
+  color: #fff;
+}
+.updated:hover {
+  background-color: #31c68f !important;
+  color: #fff;
+}
+.deaths:hover {
+  background-color: #bd0808 !important;
+  color: #fff;
+}
+.cases:hover {
+  background-color: #4f05e4 !important;
+  color: #fff;
+}
+.todayCases:hover {
+  background-color: lightgray !important;
+  color: #fff;
+}
